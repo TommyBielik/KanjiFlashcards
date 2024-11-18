@@ -1,0 +1,272 @@
+/* REGISTER */
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.register-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 50vh;
+    font-size: 2rem;
+}
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.register-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-header {
+    font-size: 8rem;
+
+}
+
+/* LOGIN */
+
+.signup-p {
+    font-size: 1.5rem;
+}
+
+.sign-up-a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: rgb(170, 32, 32);
+    cursor: pointer;
+}
+
+/* HOME */
+
+.homepage-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.homepage-header {
+    font-size: 4rem;
+}
+
+.homepage-btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.homepage-btn {
+    height: 8rem;
+    width: 30rem;
+    border-radius: 40px;
+    font-size: 1.5rem;
+}
+
+.homepage-btn:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color: darkred;
+    color: wheat;
+    border-color: wheat;
+    box-shadow: 0 0 10px 10px brown;
+}
+
+/* BROWSE */
+
+.browse {
+    height: 100vh;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.header-decks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.deck-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.deck-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.deck-card {
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+    border: 2px solid;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    height: 30vh;
+    width: 12rem;
+}
+
+.deck-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 10px 10px #f5c018;
+}
+
+.delete-btn {
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+    cursor: pointer;
+    box-shadow: 0 0 5px 3px brown;
+}
+
+/* DECK DETAILS */
+
+.flashcard-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flashcard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 30vh;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: firebrick;
+}
+
+.card-back:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px black;
+    cursor: pointer;
+}
+
+.card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 30vh;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: white;
+    gap: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.front-btn-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.kanji-sign {
+    font-size: 5rem;
+}
+
+.click-p {
+    font-size: 1.5rem;
+}
+
+/* CREATE */
+
+
+.create-deck-form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.create-label {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.create-input {
+    height: 3rem;
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+/* ADD KANJI */
+
+.add-flashcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.add-kanji-input {
+    height: 5rem;
+    font-size: 3rem;
+    width: 8rem;
+    border-radius: 10px;
+    border: none;
+    background-color: chocolate;
+}
+
+.deck-browse-btn {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
